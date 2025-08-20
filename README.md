@@ -5,6 +5,7 @@ A modern, AI-powered news dashboard built with Next.js, React, and TypeScript. V
 ---
 
 ## Table of Contents
+
 - [Overview](#overview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
@@ -19,9 +20,11 @@ A modern, AI-powered news dashboard built with Next.js, React, and TypeScript. V
 ---
 
 ## Overview
+
 News Dash is a personalized dashboard for news enthusiasts, researchers, and professionals. It aggregates news from top global sources, provides AI-powered summaries, and offers interactive analytics for deeper insights.
 
 ## Features
+
 - **Interactive Charts & Visualizations:** Pie charts, bar graphs, timelines, and word clouds for trends and sentiment.
 - **AI Summaries:** Get concise, AI-generated summaries of articles using HuggingFace models.
 - **Advanced Search & Filtering:** Filter by topic, country, date range, keywords, author, source, image, and word count.
@@ -31,6 +34,7 @@ News Dash is a personalized dashboard for news enthusiasts, researchers, and pro
 - **Quick Searches:** One-click access to trending topics and your preferred interests.
 
 ## Tech Stack
+
 - **Frontend:** Next.js, React 19, TypeScript, Tailwind CSS
 - **Backend:** Next.js API routes
 - **Database:** Firebase Firestore
@@ -39,13 +43,16 @@ News Dash is a personalized dashboard for news enthusiasts, researchers, and pro
 - **AI Summarization:** HuggingFace API
 
 ## Getting Started
+
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/your-username/news-dash.git
 cd news-dash
 ```
 
 ### 2. Install Dependencies
+
 ```bash
 npm install
 # or
@@ -53,24 +60,30 @@ pnpm install
 ```
 
 ### 3. Configure Environment Variables
+
 Copy `.env.example` to `.env` and fill in your API keys:
+
 - Firebase
 - NewsAPI
 - HuggingFace
 
 ### 4. Run the Development Server
+
 ```bash
 npm run dev
 ```
 
 ### 5. Build for Production
+
 ```bash
 npm run build
 npm start
 ```
 
 ## Environment Variables
+
 Create a `.env` file in the root directory with the following keys:
+
 ```env
 NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
@@ -84,12 +97,14 @@ HF_API_KEY=your_huggingface_key
 ```
 
 ## Usage
+
 - **Sign In:** Create an account or sign in with Google.
 - **Explore News:** Browse articles, use filters, and view analytics.
 - **Summarize:** Click "Summarize" on any article for an AI summary.
 - **Save Preferences:** Set your favorite topics and regions for a personalized feed.
 
 ## Project Structure
+
 ```
 app/
   ├── api/
@@ -110,6 +125,7 @@ styles/
 ```
 
 ## Contributing
+
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
 1. Fork the repository
@@ -119,6 +135,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 5. Open a pull request
 
 ## FAQ
+
 **Q: Can I use this project for commercial purposes?**  
 A: Yes, it is licensed under MIT.
 
@@ -132,6 +149,7 @@ A: Deploy on Vercel, Netlify, or any platform supporting Next.js.
 A: User preferences are stored securely in Firebase Firestore.
 
 ## License
+
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 ---
